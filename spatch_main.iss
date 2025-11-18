@@ -1,5 +1,6 @@
-#define AppName "Sonic R Updater"
-#define AppVersion "1.0.10"
+#define AppName "Sunhine Patcher"
+#define AppVersion "Work In Progress Beta 1"
+#define AppVersion2 "wipb1"
 #define GameName "Sonic R"
 #include <idp.iss>
 
@@ -15,7 +16,7 @@ AppendDefaultDirName=no
 DisableReadyPage=yes
 AlwaysShowDirOnReadyPage=yes
 CloseApplications=yes
-OutputBaseFilename={#AppName} {#AppVersion}
+OutputBaseFilename=spatch_main_{#AppVersion2}
 SetupIconFile=srud.ico
 WizardImageFile=SR_large.bmp
 WizardImageStretch=no
@@ -24,22 +25,29 @@ Compression=lzma
 SolidCompression=yes
 Uninstallable=no
 PrivilegesRequired=admin
+InfoBeforeFile=welcome.txt
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
+Name: "italian"; MessagesFile: "compiler:Languages\Italian.isl"; InfoBeforeFile: "welcome_it.txt"
 
 [Messages]
+BeveledLabel={#AppVersion}
 SetupAppTitle={#AppName} {#AppVersion}
 SetupWindowTitle={#AppName} {#AppVersion}
-SelectDirLabel3={#AppName} will install an update for {#GameName} in the following folder.
+SelectDirLabel3=Select the folder containing the install of {#GameName} and {#AppName} will install in the following folder.
+italian.SelectDirLabel3=Seleziona la cartella contenente l'installazione di {#GameName} e {#AppName} si installerà nella seguente cartella.
 FinishedLabel=Setup has completed update of {#GameName} on your computer. A Shortcut to {#GameName} Mod Manager has been added to the start menu.
 ExitSetupMessage={#GameName} has not been updated.%nAre you sure you want to close the updater?
+italian.ExitsetupMessage={#GameName} non è stato aggiornato.%nAre you sure you want to close the updater?
 SelectDirDesc=Where should the update for {#GameName} be installed?
 InstallingLabel=Please wait while Setup installs the {#GameName} update on your computer.
 
 [CustomMessages]
 IDP_FormCaption=Attempting Download of {#GameName} Mod Loader...
 IDP_FormDescription=Please wait a moment...
+english.MyMessage=The selected path does not contain a copy of {#GameName}, please browse to the correct path and try again or exit from the install.
+italian.MyMessage=Il percorso selezionato non contiene una copia di {#GameName}, gentilmente seleziona il percorso corretto e riprova o esci dall'installazione.
 
 [InstallDelete]
 ;files that need replaced in 1998 build
@@ -151,7 +159,7 @@ begin
     not FileExists(ExpandConstant('{app}\sonicr.exe'))
     ) then
     begin
-        MsgBox('The selected path does not contain a copy of {#GameName}, please browse to the correct path and try again or exit.', mbError, MB_OK);
+        MsgBox(ExpandConstant('{cm:MyMessage}'), mbError, MB_OK);
         Result := False;
         exit;
     end
