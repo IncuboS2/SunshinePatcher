@@ -1,0 +1,6 @@
+(Warning: This Welcome file is incomplete!)
+Welcome to Sunshine Patcher!
+This is a new fork of Cheatfreak47's Sonic R Updater (https://github.com/cheatfreak47/SRUpdater) that includes various additionals from the original project.
+
+
+
