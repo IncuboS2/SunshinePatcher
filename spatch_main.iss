@@ -148,7 +148,7 @@ begin
      'InstallLocation', InstalledDir) then
     begin
     end
-	  StringChangeEx(InstalledDir, 'directx\setup /r', '', True);
+	 ; StringChangeEx(InstalledDir, 'directx\setup /r', '', True);
     Result := InstalledDir;    
 end;
 
