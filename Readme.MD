@@ -1,6 +1,5 @@
-# Sonic R Updater
-![Image of SRUpdater](https://raw.githubusercontent.com/cheatfreak47/SRUpdater/master/repo.png)
-### Sonic R Updater is a patch for the PC ports of Sonic R.
+# Sunshine Patcher
+### Sunshine Patcher is a WIP fork of Sonic R Updater, tool originally done by cheatfreak47.
 
 This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a few helpful mods for it.
 
@@ -82,9 +81,9 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 https://github.com/michael-fadely/sa2-battle-network), but that's probably not going to happen, since there seems to be little interest in modding Sonic R generally. Please do let me know if you make that mod though, I'd love to include it if it ever comes to exist.
 
 
-**Q:** How 2 Compile?
+**Q:** How to Compile the source?
 
-**A:** Clone the repository and install the two dependencies; Inno Setup and Inno Download Plugin. You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the Sonic R Updater ISS script and you're golden.
+**A:** Clone the repository and install the two dependencies; Inno Setup first and Inno Download Plugin (which should be installed in the same directory as Inno Setup's directory!). You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the ISS script file and you're golden.
 
 ## Credits
 	
