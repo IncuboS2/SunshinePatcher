@@ -38,6 +38,7 @@ SetupWindowTitle={#AppName} {#AppVersion}
 SelectDirLabel3=Select the folder containing the install of {#GameName} and {#AppName} will install in the following folder.
 italian.SelectDirLabel3=Seleziona la cartella contenente l'installazione di {#GameName} e {#AppName} si installerà nella seguente cartella.
 FinishedLabel=Setup has completed update of {#GameName} on your computer. A Shortcut to {#GameName} Mod Manager has been added to the start menu.
+italian.FinishedLabel=Setup ha completato l'aggiornamento di {#GameName} sul tuo computer. Una scorciatoia a {#GameName} Mod Manager è stata aggiunta al menu start.
 ExitSetupMessage={#GameName} has not been updated.%nAre you sure you want to close the updater?
 italian.ExitsetupMessage={#GameName} non è stato aggiornato.%nAre you sure you want to close the updater?
 SelectDirDesc=Where should the update for {#GameName} be installed?
