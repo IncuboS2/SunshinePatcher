@@ -83,7 +83,7 @@ https://github.com/michael-fadely/sa2-battle-network), but that's probably not g
 
 **Q:** How to Compile the source?
 
-**A:** Clone the repository and install the two dependencies; Inno Setup first and Inno Download Plugin (which should be installed in the same directory as Inno Setup's directory!). You might also opt to install Inno Script Studio which was used heavily during development of this software. Anyway, just compile the ISS script file and you're golden.
+**A:** Clone the repository and install the two dependencies; Inno Setup first and Inno Download Plugin (which should be installed in the same directory as Inno Setup's directory or it won't work!). You might also opt to install Inno Script Studio which was used heavily during development of the original project. Anyway, just compile the ISS script file and you're golden.
 
 ## Credits
 	
