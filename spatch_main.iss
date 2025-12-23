@@ -1,4 +1,4 @@
-#define AppName "Sunhine Patcher"
+#define AppName "Sunshine Patcher"
 #define AppVersion "Work In Progress Beta 1"
 #define AppVersion2 "wipb1"
 #define GameName "Sonic R"
@@ -46,8 +46,10 @@ InstallingLabel=Please wait while Setup installs the {#GameName} update on your 
 [CustomMessages]
 IDP_FormCaption=Attempting Download of {#GameName} Mod Loader...
 IDP_FormDescription=Please wait a moment...
-english.MyMessage=The selected path does not contain a copy of {#GameName}, please browse to the correct path and try again or exit from the install.
-italian.MyMessage=Il percorso selezionato non contiene una copia di {#GameName}, gentilmente seleziona il percorso corretto e riprova o esci dall'installazione.
+english.NoCopy=The selected path does not contain a copy of {#GameName}, please browse to the correct path and try again or exit from the install.
+italian.NoCopy=Il percorso selezionato non contiene una copia di {#GameName}, gentilmente seleziona il percorso corretto e riprova o esci dall'installazione.
+english.GameRunning=Please make sure {#GameName} is not running and run the installer again.
+italian.GameRunning=Assicurati che {#GameName} non è in esecuzione e rilancia di nuovo l'installazione.
 
 [InstallDelete]
 ;files that need replaced in 1998 build
@@ -159,7 +161,7 @@ begin
     not FileExists(ExpandConstant('{app}\sonicr.exe'))
     ) then
     begin
-        MsgBox(ExpandConstant('{cm:MyMessage}'), mbError, MB_OK);
+        MsgBox(ExpandConstant('{cm:NoCopy}'), mbError, MB_OK);
         Result := False;
         exit;
     end
@@ -223,7 +225,7 @@ strLauncher := 'Direct3DWindowClass';
 wnGame := FindWindowByWindowName(strGame);
 classGame := FindWindowByClassName(strGame);
 classLauncher:= FindWindowByClassName(strLauncher);
-errorRunning:= 'Please make sure {#GameName} is not running and run the installer again.';    
+errorRunning:= '{cm:GameRunning}';    
   if classGame <> 0 then
     begin
     MsgBox(errorRunning,  mbInformation, MB_OK);
