@@ -69,7 +69,7 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 **Q:** Is this speedrun legal?
 
-**A:** No, but [CheatFreak did requested it] (https://www.speedrun.com/Sonic_R/thread/zc91h) in the original project.
+**A:** No, but [CheatFreak did requested it](https://www.speedrun.com/Sonic_R/thread/zc91h) in the original project.
 A speedrun category could be made, but it hasn't thus far. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality.
 
 
