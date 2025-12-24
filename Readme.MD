@@ -58,9 +58,10 @@ The Steam Deck runs Sonic are perfectly, as you might imagine, but you might run
 
 ## Uninstall
 
-What's that? You don't like this patch? I can't imagine why you wouldn't... unless you just don't like Sonic R. In which case, clearly you're delusional, because Sonic R is obviously the best Sonic game. 
+What's that? You don't like this patch? You have issues with the latest versions? Want to update?
 
-Well, in any case, to remove it, just uninstall Sonic R normally by opening `Control Panel` → `Programs` → `Uninstall a Program` → `SonicR`, and then, after the Uninstall has finished, navigate to the installation folder and delete any remaining files. You may leave behind the `save` and `ghost` folders if you wish to avoid losing any save games, and you should keep the `mods` folder if you developed any mods and have their resources laying around in there.
+Well, in any case, to remove the patch, you basically need to uninstall Sonic R:
+Open up `Control Panel`, then `Programs` → `Uninstall a Program` → `SonicR`, and then, after the Uninstall has finished, navigate to the Sonic R folder and delete any remaining leftover files. You may as well leave behind the `save` and `ghost` folders if you wish to avoid losing any save games expectially when you want to update or reinstall Sunshine Patcher. Also, you should keep the `mods` folder as well if you've developed any mods and wanted to keep working on them.
 
 Lastly, the Start Menu shortcuts can be removed by right clicking one of them in the Start Menu, and going to `More` → `Open file location`, followed by clicking the Up One Level button (↑) and deleting the `SonicR` folder in `Sega`. If you don't have any other Sega games installed, you may also want to delete the `Sega` folder to remove it from your Start Menu as well.
 
@@ -68,17 +69,21 @@ Lastly, the Start Menu shortcuts can be removed by right clicking one of them in
 
 **Q:** Is this speedrun legal?
 
-**A:** [No, but I requested it.](https://www.speedrun.com/Sonic_R/thread/zc91h) A speedrun category could be made, but it hasn't thus far. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality.
+**A:** No, but [CheatFreak did requested it] (https://www.speedrun.com/Sonic_R/thread/zc91h) in the original project.
+A speedrun category could be made, but it hasn't thus far. Technically, neither ADX Music or RemoveStrays are code based mods, and thus have no effect on how the game performs or behaves in any way, outside of extremely minor, nearly unnoticeable cosmetic differences in UI Textures and Audio Quality.
+
 
 **Q:** 2004 port? Why haven't I heard of this before?
 
-**A:** It's just really obscure and quite rare, only being released in limited quantities in the UK and Australia. (to our current knowledge, at least...) On top of that, the boxes are not even labeled accordingly, and that makes tracking copies down rather difficult. It's as though they just treated the entire port as _just another reprint of the 1998 port._ Oh well, can't expect too much from Sonic R, right?
+**A:** Even though it's treated as a reprint of the 1998 port, it's a different version, which does remove some features but it makes it a bit more friendly with modern versions of Windows. Sadly, it was only released in certain regions like the UK and in Australia and also in limited quantities, making it both obscure and quite rare to find. In addition, it's much more confusing when trying to track down a copy of it, as the boxes of this version aren't labeled properly, making it pretty difficult to distinguish these 2004 port copies with the more common 1998 port copies.
+
 
 
 **Q:** How do I play in network multiplayer mode?
 
 **A:** The short answer is you can't. The long answer is that the 2004 port of Sonic R this is based on removed all network play from the game for whatever reason. It's theroretically possible for it to be modded back or for someone to create an online multiplayer mod, similar to [SA2 Battle Network](
 https://github.com/michael-fadely/sa2-battle-network), but that's probably not going to happen, since there seems to be little interest in modding Sonic R generally. Please do let me know if you make that mod though, I'd love to include it if it ever comes to exist.
+
 
 
 **Q:** How to Compile the source?
