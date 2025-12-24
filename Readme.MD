@@ -1,5 +1,5 @@
 # Sunshine Patcher
-### Sunshine Patcher is a WIP fork of Sonic R Updater, tool originally done by cheatfreak47.
+Sunshine Patcher is a WIP fork of Sonic R Updater, tool originally done by cheatfreak47. Its goal is to improve the original project in various ways.
 
 This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a few helpful mods for it.
 
