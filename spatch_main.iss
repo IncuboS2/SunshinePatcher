@@ -1,6 +1,6 @@
 #define AppName "Sunshine Patcher"
-#define AppVersion "Work In Progress Beta 1"
-#define AppVersion2 "wipb1"
+#define AppVersion "Work In Progress Beta 1.1"
+#define AppVersion2 "wipb1.1"
 #define GameName "Sonic R"
 #include <idp.iss>
 
