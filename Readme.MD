@@ -1,7 +1,5 @@
-# Sunshine Patcher
-Sunshine Patcher is a WIP fork of Sonic R Updater, tool originally done by cheatfreak47. Its goal is to improve the original project in various ways.
-
-This patch will update any version of the game to the much more friendly 2004 port, with the [Sonic R Mod Loader](https://github.com/sonicretro/sonicr-mod-loader/releases) included, along with a few helpful mods for it.
+# Sunshine Patcher (Legacy Version)
+Legacy Version is a separated version of Sunshine Patcher which is intended for older versions of Windows.
 
 ## Features
 
@@ -118,3 +116,4 @@ https://github.com/michael-fadely/sa2-battle-network), but that's probably not g
 Sonic R Updater, along with it's source are provided without a license of any kind, and are distributed as-is. All resources included are used without permission.
 
 The included game resources may be removed from the repository at a later date- replaced with a list of the intended resources in this readme instead. It's not decided if/when this will happen, but it may eventually.
+Legacy Version
