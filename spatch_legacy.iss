@@ -1,6 +1,6 @@
 #define AppName "Sunshine Patcher"
-#define AppVersion "Work In Progress Beta 1.1"
-#define AppVersion2 "wipb1.1"
+#define AppVersion "Work In Progress Beta 1"
+#define AppVersion2 "wipb1"
 #define GameName "Sonic R"
 #include <idp.iss>
 
@@ -16,7 +16,7 @@ AppendDefaultDirName=no
 DisableReadyPage=yes
 AlwaysShowDirOnReadyPage=yes
 CloseApplications=yes
-OutputBaseFilename=spatch_main_{#AppVersion2}
+OutputBaseFilename=spatch_legacy_{#AppVersion2}
 SetupIconFile=srud.ico
 WizardImageFile=SR_large.bmp
 WizardImageStretch=no
