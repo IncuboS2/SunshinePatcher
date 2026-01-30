@@ -26,6 +26,8 @@ SolidCompression=yes
 Uninstallable=no
 PrivilegesRequired=admin
 InfoBeforeFile=welcome.txt
+OnlyBelowVersion=6.1
+MinVersion=4.00
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
