@@ -1,6 +1,5 @@
 (Warning: This Welcome file is incomplete!)
 Welcome to Sunshine Patcher!
-This is a new fork of Cheatfreak47's Sonic R Updater (https://github.com/cheatfreak47/SRUpdater) that includes various additionals from the original project.
+This is a new fork of Cheatfreak47's Sonic R Updater (https://github.com/cheatfreak47/SRUpdater).
 
-
-
+This fork includes various changes such as: additional features from the original project, clean up and replace some of the code (like replacing the replacing files system with a patching system that changes the files' bytes) and improving some stuff here and there.
